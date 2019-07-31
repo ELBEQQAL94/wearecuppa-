@@ -1,12 +1,12 @@
 import React from "react";
 import Logo from "../images/logo.jpg";
 import Links from "./Links";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Menu = () => (
   <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container">
-      <Link className="navbar-brand" to="#">
+      <Link className="navbar-brand" to="/">
         <img src={Logo} alt="logo" title="logo" width="150" height="150" />
       </Link>
       <button
@@ -23,7 +23,7 @@ const Menu = () => (
 
       <div className="collapse navbar-collapse" id="navbar">
         <ul className="navbar-nav mr-auto">
-          <Links title="Services" to="/" />
+          <Links title="Services" to="/services" />
           <Links title="Our Work" to="/our-work" />
           <Links title="About Us" to="/about-us" />
           <Links title="Blog" to="/blog" />
