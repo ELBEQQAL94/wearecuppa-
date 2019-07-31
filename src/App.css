@@ -1,33 +1,196 @@
-.App {
-  text-align: center;
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 3000px;
+    font-family: 'Courier New', Courier, monospace
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+a {
+    text-decoration: none !important;
+    color: black
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover {
+    color: inherit
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 569px){
+    .title-sm {
+        font-size: 2em !important;
+        text-align: center !important
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* HEADER */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .icons {
+    margin-left: 10px
+}
+
+.contact .icons span:nth-child(1):hover {
+    cursor: pointer;
+    transition: all .7s linear;
+    color: rgb(15, 179, 143) !important
+}
+
+.contact .icons span:nth-child(2):hover {
+    cursor: pointer;
+    transition: all .7s linear;
+    color: rgb(8, 8, 199) !important
+}
+
+.contact .icons span:nth-child(3):hover {
+    cursor: pointer;
+    transition: all .7s linear;
+    color: rgb(179, 13, 13) !important
+}
+
+.contact .icons span:nth-child(4):hover {
+    cursor: pointer;
+    transition: all .7s linear;
+    color: rgb(22, 22, 165) !important
+}
+
+@media (max-width: 569px){
+    .hidden-contact {
+        display: none !important
+    }
+}
+
+/* CONTENT */
+.description {
+    padding: 10px;
+}
+
+.description h1 {
+    font-size: 3em;
+    margin-top: 1em;
+    color: #8d0300
+}
+
+.description p {
+    margin-top: 2em;
+    font-size: 1.3em;
+    color: grey;
+    line-height: 1.5
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 3em;
+    border: 1px solid;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5)
+}
+
+.cart .icon {
+    margin-top: 1em;
+}
+
+.cart h4 {
+    font-weight: bold;
+    color: red;
+    margin-top: 2em;
+    text-transform: uppercase
+}
+
+.delusion_div {
+    width: 100%;
+    height: 100%;
+    background-color:red
+}
+
+@media (max-width: 569px){
+    .delusion_div{
+        display: none
+    }
+}
+
+.cart p {
+    line-height: 1.7;
+    font-size: 1rem;
+    margin-top: 1em
+}
+
+.team_cart {
+    margin-top: 3em;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    text-align:center
+}
+
+.team_cart .rounded {
+    clip-path: circle(50% at 50% 50%);
+    width: 200px;
+    height: 200px
+}
+
+.team_cart h4 {
+    font-weight: bold;
+    margin-top: 2em
+}
+
+.team_cart p {
+    margin-top: 2em
+}
+
+.agency {
+    margin-top: 2em;
+    padding: 7px
+}
+
+.agency h1 {
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.agency p {
+    color: grey;
+    font-size: 1.4em;
+    margin-top: 2em;
+    line-height: 1.4
+}
+
+.btn-section {
+    width: 100%;
+    margin-top: 3em
+}
+
+.btn {
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s linear;
+    text-transform: uppercase
+}
+
+.btn:hover {
+    background-color: #8d0300;
+    color: #ffff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(136, 42, 42);
+    color: white;
+    position: relative;
+    margin-top: 7em;
+    width: 100%;
+    padding: 15px
 }
