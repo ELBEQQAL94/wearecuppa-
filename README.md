@@ -66,3 +66,37 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### About this project
+
+this project is a static website build in reactjs using components concept.
+
+### ./build folder
+
+In build folder there is a static folder who container all media assets (images, css styles, js code).
+
+### ./src folder
+
+In src folder there is all components i used to build this project, you can check out src code on github.
+
+### ./Components folder
+
+In Components folder there is all reused what i need it to build pages of this projects.
+
+### ./pages folder
+
+In pages folder there is all pages of my projects.
+
+./ about_us
+./ blog
+./ home
+./ our_work
+./ services
+./ work_with_us
+
+### finally
+
+I hopeful this docs helping you to understand my project about, and understand my code.
+
+Thank's !
