@@ -97,6 +97,6 @@ In pages folder there is all pages of my projects.
 
 ### finally
 
-I hopeful this docs helping you to understand my project about, and understand my code.
+I hopefuly this docs helping you to understand my project about, and understand my code.
 
 Thank's !
